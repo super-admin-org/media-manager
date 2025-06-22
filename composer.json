@@ -1,5 +1,5 @@
 {
-    "name": "super-admin-ext/media-manager",
+    "name": "super-admin-org/media-manager",
     "description": "Media manager for super-admin",
     "type": "library",
     "keywords": ["super-admin", "media", "manager"],

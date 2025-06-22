@@ -101,7 +101,7 @@ class MediaManager extends Extension
         $this->adapter = $this->getAdapter();
 
         if (!$this->adapter instanceof LocalFilesystemAdapter && !$this->adapter instanceof Local) {
-            Handler::error('Error', '[super-admin-ext/media-manager] only works for local storage.');
+            Handler::error('Error', '[super-admin-org/media-manager] only works for local storage.');
         }
     }
 

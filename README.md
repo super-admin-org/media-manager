@@ -4,8 +4,8 @@ Media manager for super-admin
 <p align="center">
 
 [![StyleCI](https://styleci.io/repos/384432915/shield?branch=main)](https://styleci.io/repos/387600925)
-[![Packagist](https://img.shields.io/github/license/super-admin-org/media-manager.svg?style=flat-square&color=brightgreen)](https://packagist.org/packages/super-admin-ext/media-manager)
-[![Total Downloads](https://img.shields.io/packagist/dt/super-admin-ext/media-manager.svg?style=flat-square)](https://packagist.org/packages/super-admin-ext/media-manager)
+[![Packagist](https://img.shields.io/github/license/super-admin-org/media-manager.svg?style=flat-square&color=brightgreen)](https://packagist.org/packages/super-admin-org/media-manager)
+[![Total Downloads](https://img.shields.io/packagist/dt/super-admin-org/media-manager.svg?style=flat-square)](https://packagist.org/packages/super-admin-org/media-manager)
 [![Pull request welcome](https://img.shields.io/badge/pr-welcome-green.svg?style=flat-square&color=brightgreen)]()
 
 </p>
@@ -20,7 +20,7 @@ Media manager for `local` disk.
 ## Installation
 
 ```shell
-composer require super-admin-ext/media-manager
+composer require super-admin-org/media-manager
 
 php artisan admin:import media-manager
 ```
