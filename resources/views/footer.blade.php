@@ -18,7 +18,7 @@
             <form id="file-move">
                 <div class="modal-body">
                     <div class="form-group">
-                        <label for="recipient-name" class="control-label">Path:</label>
+                        <label for="recipient-name" class="form-label">Path:</label>
                         <input type="text" class="form-control" id="moveModel_new" name="new" />
                     </div>
                     <input type="hidden" id="moveModel_path" name="path"/>

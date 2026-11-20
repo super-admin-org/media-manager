@@ -29,9 +29,9 @@
                         @endif
                     @else
                     <div class="btn-group btn-group-sm float-end">
-                        <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-bs-toggle="dropdown">
-                            <span class="caret"></span>
-                            <span class="sr-only">Toggle Dropdown</span>
+                        <button type="button" class="btn btn-light btn-xs dropdown-toggle" data-bs-toggle="dropdown">
+                            <span class=""></span>
+                            <span class="visually-hidden">Toggle Dropdown</span>
                         </button>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#" class="dropdown-item file-rename" data-bs-toggle="modal" data-bs-target="#moveModal" data-name="{{ $item['name'] }}">Rename & Move</a></li>
@@ -39,7 +39,7 @@
                             @unless($item['isDir'])
                             <li><a target="_blank" class="dropdown-item" href="{{ $item['download'] }}">Download</a></li>
                             @endunless
-                            <li class="divider"></li>
+                            <li><hr class="dropdown-divider"></li>
                             <li><a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#urlModal" data-url="{{ $item['url'] }}">Url</a></li>
                         </ul>
                     </div>

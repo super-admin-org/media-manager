@@ -1,9 +1,9 @@
 <div class="row">
     <!-- /.col -->
     <div class="col-md-12">
-        <div class="card card-primary">
+        <div class="card">
 
-            <div class="card-header navbar">
+            <div class="card-header">
 
                 <div class="btn-group me-2">
                     <a href="" type="button" class="btn btn-light btn media-reload" title="Refresh">
@@ -14,7 +14,7 @@
                     </a>
                 </div>
                 <!-- /.btn-group -->
-                <label class="btn btn-light btn me-2"{{-- data-toggle="modal" data-target="#uploadModal"--}}>
+                <label class="btn btn-light btn me-2"{{-- data-bs-toggle="modal" data-bs-target="#uploadModal"--}}>
                     <i class="icon-upload"></i>&nbsp;&nbsp;{{ __('admin.upload') }}
                     <form action="{{ $url['upload'] }}" method="post" class="file-upload-form" enctype="multipart/form-data" pjax-container>
                         <input type="file" name="files[]" class="d-none file-upload" multiple>
@@ -37,9 +37,7 @@
                 <div class="ms-auto input-group input-group-sm pull-right goto-url" style="width: 250px;">
                     <input type="text" name="path" class="form-control pull-right" value="{{ '/'.trim($url['path'], '/') }}">
 
-                    <div class="input-group-btn">
-                        <button type="submit" class="btn btn-light"><i class="icon-arrow-right"></i></button>
-                    </div>
+                    <button type="submit" class="btn btn-light"><i class="icon-arrow-right"></i></button>
                 </div>
             {{--</form>--}}
 
