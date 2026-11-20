@@ -3,7 +3,12 @@
     "description": "Media manager for super-admin",
     "type": "library",
     "keywords": ["super-admin", "media", "manager"],
-    "homepage": "https://github.com/super-admin-org/media-manager",
+    "homepage": "https://super-admin.org/laravel/extension-media-manager/",
+    "support": {
+        "docs": "https://super-admin.org/laravel/extension-media-manager/",
+        "issues": "https://github.com/super-admin-org/media-manager/issues",
+        "source": "https://github.com/super-admin-org/media-manager"
+    },
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +18,7 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "super-admin-org/super-admin": "^1.0"
+        "super-admin-org/super-admin": "^1.0|^2.0"
     },
     "autoload": {
         "psr-4": {
